@@ -4,7 +4,6 @@ import QRCode from "react-qr-code";
 
 function App() {
   const [text, setText] = useState("");
-  const [showQr, setShowQr] = useState(false);
 
   function changeHandler(e) {
     setText(e.target.value);
