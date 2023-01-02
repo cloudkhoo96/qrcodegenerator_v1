@@ -1,0 +1,29 @@
+input {
+  width: 25%;
+  height: auto;
+  padding: 2%;
+  margin-top: 2%;
+  box-sizing: content-box;
+  border: none;
+  border-bottom: 5px solid purple;
+  border-radius: 25%;
+  color: black;
+  outline: none;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+  font-size: 100%;
+}
+input:focus {
+  border-bottom: 5px solid darkmagenta;
+  background-color: lavender;
+  width: 100%;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+form {
+    text-align: center;
+  padding: 2%;
+  margin-top: 2%;
+  width: 50em;
+}

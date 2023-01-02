@@ -1,0 +1,18 @@
+h1 {
+  font-size: 500%;
+  text-decoration: underline dotted;
+  text-decoration-color: darkmagenta;
+  font-weight: bolder;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-align: center;
+  padding-top: 0%;
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 250%;
+  }
+}
