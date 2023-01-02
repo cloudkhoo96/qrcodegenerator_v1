@@ -13,36 +13,5 @@
   gap: 30%;
   padding-top: 1%;
 }
-h1 {
-  font-size: 400%;
-  text-decoration: underline dotted;
-  text-decoration-color: darkmagenta;
-  font-weight: bolder;
-  overflow-wrap: normal;
-  text-align: center;
-}
-input {
-  width: 25%;
-  height: 5%;
-  padding: 2%;
-  margin-top: 5%;
-  box-sizing: content-box;
-  border-bottom: 5px solid purple;
-  border-radius: 25%;
-  color: black;
-  outline: none;
-  transition: width 0.4s ease-in-out;
-  text-align: center;
-  font-size: 170%;
-}
-input:focus {
-  border: 5px solid darkmagenta;
-  background-color: lavender;
-  width: 100%;
-}
-footer {
-  text-align: center;
-  padding-top: 5%;
-  color: grey;
-  font-weight: bold;
-}
+
+

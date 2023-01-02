@@ -1,33 +1,17 @@
-import { useState } from "react";
 import "./App.css";
-import QRCode from "react-qr-code";
+import QRCodeGenerator from "./components/QRCodeGenerator";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-  const [text, setText] = useState("");
-
-  function changeHandler(e) {
-    setText(e.target.value);
-  }
-
+ 
   return (
     <>
       <div className="App">
-        <h1>QR Code Generator</h1>
-        <div>
-          <QRCode value={text} />
+       <Header />
+        <QRCodeGenerator />
         </div>
-        <input
-          type="text"
-          value={text}
-          placeholder="Type Here..."
-          onChange={(e) => {
-            changeHandler(e);
-          }}
-        />
-      </div>
-      <div>
-        <footer>@CloudKhoo 2022</footer>
-      </div>
+        <Footer />
     </>
   );
 }
