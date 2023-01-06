@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build-css && react-scripts build && yarn run delete-maps",
-    "delete-maps": "rm ./build/static/js/*.map && rm ./build/static/css/*.map",
+    "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
